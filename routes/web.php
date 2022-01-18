@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ActController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HelloController;
 
@@ -14,4 +15,4 @@ use App\Http\Controllers\HelloController;
 |
 */
 Route::get('/', [HelloController::class,'index']);
-Route::get('/act', [HelloController::class,'act']);
+Route::get('/act', [ActController::class,'act']);

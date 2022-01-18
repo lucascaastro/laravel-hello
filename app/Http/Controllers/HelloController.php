@@ -10,8 +10,4 @@ class HelloController extends Controller
     {
         return view('hello');
     }
-    public function act()
-    {
-        return view('act');
-    }
 }
