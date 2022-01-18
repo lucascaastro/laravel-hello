@@ -14,3 +14,4 @@ use App\Http\Controllers\HelloController;
 |
 */
 Route::get('/', [HelloController::class,'index']);
+Route::get('/act', [HelloController::class,'act']);
